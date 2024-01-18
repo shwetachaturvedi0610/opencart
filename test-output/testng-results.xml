@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-16T15:13:27 IST" name="Suite" finished-at="2024-01-16T15:13:42 IST" duration-ms="14897">
+    <groups>
+    </groups>
+    <test started-at="2024-01-16T15:13:27 IST" name="Test1" finished-at="2024-01-16T15:13:38 IST" duration-ms="11124">
+      <class name="testngprogramme.ParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testngprogramme.ParallelTest@2cd76f31]" started-at="2024-01-16T15:13:27 IST" name="setUp" finished-at="2024-01-16T15:13:37 IST" duration-ms="10435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogo()[pri:1, instance:testngprogramme.ParallelTest@2cd76f31]" started-at="2024-01-16T15:13:37 IST" name="testLogo" finished-at="2024-01-16T15:13:38 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testHomePageTitle()[pri:2, instance:testngprogramme.ParallelTest@2cd76f31]" started-at="2024-01-16T15:13:38 IST" name="testHomePageTitle" finished-at="2024-01-16T15:13:38 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testngprogramme.ParallelTest@2cd76f31]" started-at="2024-01-16T15:13:38 IST" name="closeApp" finished-at="2024-01-16T15:13:38 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngprogramme.ParallelTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-01-16T15:13:27 IST" name="Test2" finished-at="2024-01-16T15:13:42 IST" duration-ms="14897">
+      <class name="testngprogramme.ParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testngprogramme.ParallelTest@79d8407f]" started-at="2024-01-16T15:13:27 IST" name="setUp" finished-at="2024-01-16T15:13:41 IST" duration-ms="14230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogo()[pri:1, instance:testngprogramme.ParallelTest@79d8407f]" started-at="2024-01-16T15:13:41 IST" name="testLogo" finished-at="2024-01-16T15:13:41 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testHomePageTitle()[pri:2, instance:testngprogramme.ParallelTest@79d8407f]" started-at="2024-01-16T15:13:41 IST" name="testHomePageTitle" finished-at="2024-01-16T15:13:41 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testngprogramme.ParallelTest@79d8407f]" started-at="2024-01-16T15:13:41 IST" name="closeApp" finished-at="2024-01-16T15:13:42 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngprogramme.ParallelTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
