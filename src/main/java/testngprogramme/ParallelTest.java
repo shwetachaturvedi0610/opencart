@@ -30,6 +30,7 @@ public class ParallelTest {
 			driver = new EdgeDriver();
 			driver.get("https://www.facebook.com/");
 			driver.manage().window().maximize();
+			driver.close();
 		}
 
 	}
